@@ -67,16 +67,15 @@ Place the executable inside the drivers/ folder.
 04_BusinessRecommendations.ipynb – insights & interpretation
 
 
-The power_bi/ folder contains an example Power BI dashboard built on top of the processed NHL dataset.
-
+📌 The power_bi/ folder contains an example Power BI dashboard built on top of the processed NHL dataset.
 The purpose of this dashboard is to demonstrate:
-
+```text
 - Basic data modeling (Star Schema structure – fact and dimension tables)
 - Creation of calculated measures (Win %, Games Played, Ranking, Performance Tier)
 - Use of DAX for ranking and performance segmentation
 - Interactive filtering by season and team
 - Business-oriented data visualization
-
+```
 The dashboard is intended as a demonstration of foundational Power BI skills rather than a production-ready BI solution.
 
 🛠️ Technologies Used
