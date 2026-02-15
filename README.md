@@ -28,6 +28,9 @@ NHL_stats/
 |
 |-- notebooks/        # Jupyter notebooks (download, cleaning, analysis, business insights)
 |
+|-- powerbi/          # PowerBI dashboard (team/season summary, performance distribution analysis) 
+|   |-- preview/      # PowerBI dashboard pdf. preview
+| 
 |-- requirements.txt
 `-- README.md
 ```
