@@ -29,7 +29,7 @@ NHL_stats/
 |-- notebooks/        # Jupyter notebooks (download, cleaning, analysis, business insights)
 |
 |-- powerbi/          # PowerBI dashboard (team/season summary, performance distribution analysis) 
-|   |-- preview/      # PowerBI dashboard pdf. preview
+|   `-- preview/      # PowerBI dashboard pdf. preview
 | 
 |-- requirements.txt
 `-- README.md
@@ -66,6 +66,19 @@ Place the executable inside the drivers/ folder.
 
 04_BusinessRecommendations.ipynb – insights & interpretation
 
+
+The power_bi/ folder contains an example Power BI dashboard built on top of the processed NHL dataset.
+
+The purpose of this dashboard is to demonstrate:
+
+- Basic data modeling (Star Schema structure – fact and dimension tables)
+- Creation of calculated measures (Win %, Games Played, Ranking, Performance Tier)
+- Use of DAX for ranking and performance segmentation
+- Interactive filtering by season and team
+- Business-oriented data visualization
+
+The dashboard is intended as a demonstration of foundational Power BI skills rather than a production-ready BI solution.
+
 🛠️ Technologies Used
 ```text
 Python
@@ -85,6 +98,8 @@ Requests
 Jupyter Notebook
 
 HTML + JSON + CSV data formats
+
+PowerBI
 ```
 
 📈 What This Project Demonstrates
@@ -95,3 +110,4 @@ HTML + JSON + CSV data formats
 ✔ Exploratory data analysis
 ✔ Communication of insights and findings
 ✔ Clean project structure and reproducibility
+✔ Basic data visualization and summarization using dashboard 
